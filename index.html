@@ -10,10 +10,15 @@
     <script
       src="https://kit.fontawesome.com/761e4c8e5c.js"
       crossorigin="anonymous"></script>
-          <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+      <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Portfolio</title>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
   </head>
+
+
   <body>
     <section class="hero">
       <nav>
@@ -29,8 +34,8 @@
       </nav>
       <div class="hero-area">
         <div class="hero-text">
-          <h1>Ataa-Ur-Rasool</h1>
-          <p>An Upcoming Developer</p>
+          <h1 class="nameColor">Ataa-Ur-Rasool</h1>
+          <p>A Keen Learner</p>
           <div class="button"><a href="#about-me">About me</a></div>
         </div>
         <div class="socials">
@@ -89,13 +94,14 @@
       <div class="information">
         <h2>About Me</h2>
         <p>
-          Hello! My name is Muhammad Ataa Ur Rasool. I am a Student at NUCES
-          Islamabad(FAST). I'm striving to become a good software developer.
-          My skills include C++, HTML, CSS, JavaScript and some MySQL.
+          Hello! My name is Muhammad Ataa Ur Rasool. I am a Student at National University
+          of Computer and Emerging Sciences, 
+          Islamabad(NUCES-FAST). <br> As a student, I have been enthralled by the endless possibilities that technologgy presents, and I am eager to translate my academic knowledge into the real-world solutions. <br>
+          Some of my skills include C++, Java, HTML5, CSS, Bootstrap, JavaScript and MySQL.
         </p>
       </div>
       <div class="headshot-container">
-        <img class="headshot" src="images/idk.jpg" alt="my photo" />
+        <img class="headshot" src="images/idk.png" alt="my photo" />
       </div>
     </section>
     <section class="sub-section-alternative" id="projects">
@@ -106,7 +112,7 @@
             class="project-image"
             src="images/Online-Grocery-Management-System-.jpg"
             alt="Project One Image" />
-          <h3>Grocery Store Management System</h3>
+          <h3>Grocery Store <br> Management System</h3>
           <br />
           <p class="subtext">
             This is a console-based project porgrammed using Object Oriented
@@ -122,10 +128,12 @@
           <h3>Khaabay!</h3>
           <p class="subtext">
             This is my project made using HTML and CSS along with Bootstrap 4.
-            <br />
-            <br />
             With HTML and CSS, a food website is designed and developed to
             provide an interactive and engaging experience for users.
+            <br />
+            Absolute user friendly experience with LogIn SignUp features 
+            without use of any pre-designed templates.
+
           </p>
           <hr />
         </div>
@@ -140,20 +148,61 @@
             in C++
           </h3>
           <p class="subtext">
-            I have been working on many small and large projects in C++ <br />
-            that were either assigned to me as assignments by university or some
-            side <br />
-            projects for sake of practice.
+            I have been working on many small and large projects in C++
+            that were either assigned to me as assignments by university. 
+            <br><br>
+            Along with that some other side projects for sake of practice.
           </p>
           <hr />
         </div>
-
       </div>
     </section>
+
+<!-- trying -->
+<section class="sub-section-alternative" id="projects">
+  <!-- <h2>Projects</h2> -->
+  <div class="project-container">
+    <div class="project-card">
+      <img
+        class="project-image"
+        src="images/QuestOfCrystal.jpg"
+        alt="Project One Image" />
+      <h3>The Quest for the Crystal Kingdom</h3>
+      <br />
+      <p class="subtext">
+        This was created using important concepts of Data Structures in C++ along with Object Oriented Programming and basic programming concepts. 
+        <br>AVL Trees, Floyd's Algorithm, Prim's Algorithm, Kruskal's Algorithm, Dijkstra's Algorithm, these were the major concepts invloved in the creation of this project.
+      </p>
+      <hr />
+    </div>
+    <div class="project-card">
+      <img
+        class="project-image"
+        src="images/seleniumJava.jpg"
+        alt="selenium" />
+      <br />
+      <h3>
+        Selenium Automation Testing<br />
+        with Java
+      </h3>
+      <p class="subtext">
+          Recently, I have worked on web-based Automation using selenium,
+          testing website by creating selenium based script in java.
+          <br><br>
+          A bunch of small projects along with testing of a complete
+          website was performed using this technique.
+      </p>
+      <hr />
+    </div>
+  </section>
+<!-- trying -->
+
+
+
     <footer id="contact-me">
       <h2>Contact me</h2>
       <p>mataaurrasool@gmail.com</p>
-      <p>@ataa_ur_rasool</p>
+      <p>+92 340 5883200</p>
     </footer>
     <script src="src/app.js"></script>
   </body>
